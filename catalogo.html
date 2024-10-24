@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Catálogo de Libros</h1>
+        <nav>
+            <a class="catalogo"href="index.html" class="inicio-link">Inicio</a> <!-- Enlace a la página de Inicio -->
+            <a class="registro"href="registro.html" class="registro-link">Registro de libros</a>
+        </nav>
+        <button class="dark-mode-toggle" id="darkModeToggle">🌙</button>
+    </header>
+
+    <body>
+        <div class="container">
+            <h1>Catálogo de Libros</h1>
+            <input type="text" id="searchInput" placeholder="Buscar libros...">
+            <table id="booksTable">
+                <thead>
+                    <tr>
+                        <th>ID LIBRO</th>
+                        <th>TÍTULO</th>
+                        <th>AUTOR</th>
+                        <th>EDITORIAL</th>
+                        <th>CATEGORIA</th>
+                        <th>AÑO DE PUBLICACIÓN</th>
+                        <th>VER</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Los datos de los libros se cargarán aquí dinámicamente -->
+                </tbody>
+            </table>
+        </div>
+        <footer>
+            <p>&copy; 2024 Biblioteca Virtual. Trabajo de competencia Programación en internet.</p>
+        </footer>
+        <script src="./catalogo.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Biblioteca Virtual</title>
+ 
+</head>
+<body>
+    <header>
+        <h1>Biblioteca Virtual</h1>
+        <nav class="barra">
+            <a href="catalogo.html" class="catalogo-link">Catálogo</a> <!-- Enlace al catálogo -->
+            <a class="registro"href="registro.html" class="registro-link">Registro de libros</a>
+        </nav>
+        <button class="dark-mode-toggle" id="darkModeToggle">🌙</button>
+    </header>
+    <div class="container">
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar libros...">
+            <button>Buscar</button>
+        </div>
+
+        <h2>Libros Destacados</h2>
+        <div class="featured-books" id="featuredBooks">
+            <!-- Los libros destacados se cargarán aquí dinámicamente -->
+        </div>
+
+        <h2>Categorías</h2>
+        <div class="categories">
+            <div class="category">Programación</div>
+            <div class="category">Base de datos</div>
+            <div class="category">Cálculo</div>
+            <div class="category">Marketing</div>
+            <div class="category">Contabilidad</div>
+            <div class="category">Administración</div>
+        </div>
+
+        <h2>Libro del Día</h2>
+        <div class="libro-del-dia">
+            <div class="book-cover">📚</div>
+            <div>
+                <h3>Título del Libro</h3>
+                <p>Autor: Nombre del Autor</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Biblioteca Virtual. Trabajo de competencia Programación en internet.</p>
+    </footer>
+   <script src="./main.js"></script>
+</body>
+</html>
